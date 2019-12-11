@@ -51,6 +51,7 @@ end
   def turn
     puts "Please enter 1-9:"
     current_player.move(board)
+    binding.pry
   end
 
 #   def turn
