@@ -52,7 +52,7 @@ end
     puts "Please enter 1-9:"
     # if board.valid_move?(current_player.move(board))
     if board.valid_move?(current_player.move(board))
-      puts "Please enter 1-9:"
+      puts "Please try again."
 
     else
       board.update(current_player.move(board), current_player)
