@@ -54,8 +54,9 @@ end
     if board.valid_move?(current_player.move(board))
       puts "Please enter 1-9:"
 
-    end
+    else
       board.update(current_player.move(board), current_player)
+    end
 
     # else
     #   turn
