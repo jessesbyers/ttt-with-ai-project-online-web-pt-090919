@@ -53,8 +53,8 @@ end
     binding.pry
     move = current_player.move(board)
     if board.valid_move?(move)
-      board.update(current_player.move(board), current_player)
-      board.position(current_player.move(board))
+      board.update(move, current_player)
+      board.position(move)
     end
   end
 
