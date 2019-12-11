@@ -55,8 +55,6 @@ end
     else
       turn
     end
-
-
   end
 
 #   def turn
