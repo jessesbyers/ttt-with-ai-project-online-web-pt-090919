@@ -52,6 +52,8 @@ end
     puts "Please enter 1-9:"
     if board.valid_move?(player.move(board))
       board.update(player.move(board), current_player)
+    end
+  end
 
 
     # if player_1 == current_player && board.valid_move?(player_1.move(board))
@@ -64,31 +66,8 @@ end
     # end
 
 
-  end
 
-#   def turn
-#    puts "Please enter 1-9:"
-#    user_input = gets.strip
-#    index = input_to_index(user_input)
-#    if valid_move?(board, index)
-#       move(board, index, current_player(board))
-#       turn(board)
-#    end
-#    display_board(board)
-# end
 
-  # def turn
-  #   puts "Player 1, Please enter 1-9:"
-  #   # input = gets.strip
-  #   player_1.gets(input)
-  #   # gets.strip
-  #   # index = input_to_index(gets)
-  #   if @board.valid_move?(index)
-  #     player_1.move(index, player = current_player)
-  #     board.display
-  #   else
-  #     turn
-  #   end
-  # end
+
 
 end
