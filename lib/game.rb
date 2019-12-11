@@ -55,16 +55,10 @@ end
     elsif
       player_2 == current_player && board.valid_move?(player_2.move(board))
       board.update(player_2.move(board), player_2)
-    #   puts "Please try again."
-    #   turn
-    #
-    #
-    # else
-
-
-
-
-    # end
+    else
+      puts "Please try again."
+    end
+  
 
   end
 
