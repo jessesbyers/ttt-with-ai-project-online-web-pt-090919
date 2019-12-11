@@ -54,7 +54,7 @@ end
     binding.pry
     if board.valid_move?(move)
       board.update(move, current_player)
-      board.position(move)
+      move
     end
     if !board.valid_move?(move)
       puts "Please try again."
