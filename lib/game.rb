@@ -56,8 +56,7 @@ end
       board.position(move)
     end
       puts "Please try again."
-    end
-    turn
+    
   end
 
 
