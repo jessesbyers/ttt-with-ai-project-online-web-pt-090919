@@ -57,7 +57,7 @@ end
     end
     if !board.valid_move?(move)
       puts "Please try again."
-      move(board)
+      move
     end
 
   end
