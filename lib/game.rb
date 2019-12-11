@@ -48,7 +48,7 @@ end
     end
   end
 
-  def turn
+  def turn(current_player)
     puts "Please enter 1-9:"
     if !@board.valid_move?(current_player.move(board))
       puts "Please try again."
