@@ -50,10 +50,10 @@ end
 
   def turn
     puts "Please enter 1-9:"
-    
+
       board.update(current_player.move(board), current_player) if board.valid_move?(current_player.move(board))
-      
-  
+
+
   end
 
 #   def turn
