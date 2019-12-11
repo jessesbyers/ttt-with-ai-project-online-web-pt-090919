@@ -53,7 +53,7 @@ end
     if board.valid_move?(current_player.move(board))
       board.update(index, player)
     end
-      
+
   end
 
 #   def turn
