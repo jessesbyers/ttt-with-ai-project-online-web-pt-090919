@@ -54,7 +54,10 @@ end
     if board.valid_move?(move)
       board.update(move, current_player)
       board.position(move)
+    else
+      puts "Please try again."
     end
+    turn
   end
 
 
