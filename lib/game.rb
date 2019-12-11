@@ -50,7 +50,7 @@ end
 
   def turn
     puts "Please enter 1-9:"
-    player1.move(board)
+    current_player.move(board)
   end
 
 #   def turn
