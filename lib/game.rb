@@ -53,11 +53,11 @@ end
     move = current_player.move(board)
     if board.valid_move?(move)
       board.update(move, current_player)
-      move
+      move(board)
     end
     if !board.valid_move?(move)
       puts "Please try again."
-      move
+      move(board)
     end
 
   end
