@@ -51,7 +51,8 @@ end
   def turn
     puts "Please enter 1-9:"
     binding.pry
-    if board.valid_move?(current_player.move(board))
+    move = current_player.move(board)
+    if board.valid_move?(move)
       board.update(current_player.move(board), current_player)
       board.position(current_player.move(board))
     end
