@@ -55,8 +55,9 @@ end
       puts "Please try again."
     else
       board.update(current_player.move(board), current_player)
+      turn
     end
-    turn
+
 
     # else
     #   turn
