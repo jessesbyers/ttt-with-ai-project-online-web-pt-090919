@@ -50,7 +50,6 @@ end
 
   def turn
     move = current_player.move(board)
-
     puts "Please enter 1-9:"
     if board.valid_move?(move)
       board.update(move, current_player)
@@ -58,9 +57,7 @@ end
     end
     if !board.valid_move?(move)
       puts "Please try again."
-
     end
-
   end
 
 
