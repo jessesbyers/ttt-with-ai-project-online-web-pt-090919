@@ -56,7 +56,7 @@ end
 
 
     else
-      
+
       board.update(current_player.move(board), current_player)
 
 
