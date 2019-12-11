@@ -50,7 +50,7 @@ end
 
   def turn
     puts "Please enter 1-9:"
-    current_player.move(board)
+    if current_player.move(board).between?(1-9)
     binding.pry
   end
 
