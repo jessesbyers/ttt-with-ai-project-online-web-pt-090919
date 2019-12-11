@@ -53,7 +53,7 @@ end
     if board.valid_move?(player.move(board))
       board.update(player.move(board), current_player)
 
-    
+
     # if player_1 == current_player && board.valid_move?(player_1.move(board))
     #     board.update(player_1.move(board), player_1)
     # elsif
